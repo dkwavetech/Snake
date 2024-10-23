@@ -9,7 +9,7 @@ Dans cette version, il  n'y a pas de collisions avec les murs ou le propre corps
 
 # Accompagnement de l'enfant
 
-1- Présenter les fonctions principales du script js:
+**1- Présenter les fonctions principales du script js**
 - créer le serpent
 - dessiner
 Le but consiste à expliquer à l'enfant la construction des éléments de base, reposant sur le plan cartésien.
@@ -17,11 +17,11 @@ Les enfants n'ayant pas tous le même niveau en mathématiques, représenter sur
 
 Lors de la présentation des fonctions précédentes, se focaliser uniquement sur les valeurs attribuées aux coordonnées cartésiennes.
 
-2- Présenter la fonction de contrôle du serpent
+**2- Présenter la fonction de contrôle du serpent**
 
 Le but est d'essayer un bout de code 
 
-3- Jouer
+**3- Jouer**
 
 Quelques minutes seront accordées à l'enfant pour profiter du jeu et s'amuser.
 
@@ -80,8 +80,8 @@ Expliquer à l'enfant qu'on écoute les évènements du clavier.
 Chaque touche dispose d'un identifiant, lorsqu'on appuie sur une touche, on vérifie dans quelle direction le serpent doit être orienté.
 Le jeu se base sur les touches "flèches" (haut, bas, gauche, droite), mais on peut tout à fait changer, et définir par exemple la touche 'g' comme notre touche gauche, et la touche 'h' comme notre touche droite.
 Pour info: https://e-3d-dc1.capgemini.com/confluence/display/P001594/IDFM+PRIM+Home
-G : 71
-H : 72
+**G : 71**
+**H : 72**
 
 ``
 else if (key == "71" && direction != "gauche" && !touchePressee) {

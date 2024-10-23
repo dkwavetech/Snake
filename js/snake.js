@@ -13,7 +13,7 @@ $(document).ready(function() {
     var LARGEUR = 900;
     var HAUTEUR = 500;
     var TAILLECASE = 20;
-    var VITESSE = 80;
+    var VITESSE = 120;
 
 
 
@@ -71,6 +71,15 @@ $(document).ready(function() {
     $(document).keydown(function (e) {
 
         var key = e.which;
+
+        /*
+          37 - flèche vers la gauche
+          38 - flèche vers le haut
+          39 - flèche vers la droite
+          40 - flèche vers le bas
+
+          https://montrezvous.net/developpement-web/interactions-du-clavier-en-javascript.html
+         */
 
         if (key == "37" && direction != "droite" && !touchePressee) {
             direction = "gauche";

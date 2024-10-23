@@ -30,9 +30,7 @@ Quelques minutes seront accordées à l'enfant pour profiter du jeu et s'amuser.
 
 ### Créer le serpent: ~ 2 minutes
 
-``
-
-function creerSerpent() {
+        function creerSerpent() {
 
         var longueurDepart = 5; 
         serpent = [];
@@ -40,7 +38,7 @@ function creerSerpent() {
             serpent.push({x: i, y: 0});
         }
     }
-``
+
 On dessinera sur une feuille la longueur = 5 cm, et la largeur 1 cm.
 Puis on expliquera le code brièvement à l'enfant en lui indiquant où se trouve l'initialisation de la longueur.
 serpent.push({x: i, y: 0}); => permet d'incrémenter la longueur à partir de 0 jusqu'à atteindre 5 cm.
@@ -55,16 +53,14 @@ Les explications suivantes ne sont pas nécessaires, sauf si l'animateur les jug
 On marquera de manière aléatoire positionner la nourriture à n'importe quel endroit du tableau de jeu, et la nourriture aura comme valeur x=1 & y=1.
 Indiquer à l'enfant qu'on peut changer la taille des cases.
 
-``
  
- function creerNourriture() {
+       function creerNourriture() {
 
         nourriture = {
             x: Math.round(Math.random() * (LARGEUR - 20) / TAILLECASE),
             y: Math.round(Math.random() * (HAUTEUR - 20) / TAILLECASE)
         };
     }
-``
 
 ### Dessiner ~ 2 minutes
 

@@ -77,7 +77,8 @@ Tester le changement de couleur: rouge = ff334c | violet = f633ff
 Expliquer à l'enfant qu'on écoute les évènements du clavier.
 Chaque touche dispose d'un identifiant, lorsqu'on appuie sur une touche, on vérifie dans quelle direction le serpent doit être orienté.
 Le jeu se base sur les touches "flèches" (haut, bas, gauche, droite), mais on peut tout à fait changer, et définir par exemple la touche 'g' comme notre touche gauche, et la touche 'h' comme notre touche droite.
-Pour info:
+Pour info: https://montrezvous.net/developpement-web/interactions-du-clavier-en-javascript.html
+
 **G : 71**
 **H : 72**
 

@@ -13,7 +13,7 @@ Dans cette version, il  n'y a pas de collisions avec les murs ou le propre corps
 - créer le serpent
 - dessiner
 
-but consiste à expliquer à l'enfant la construction des éléments de base, reposant sur le plan cartésien.
+Le bus est d'expliquer à l'enfant la construction des éléments de base, reposant sur le plan cartésien.
 Les enfants n'ayant pas tous le même niveau en mathématiques, représenter sur une feuille un plan 2d illsutrant deux axes perpendiculaires, l'abscisse et l'ordonnée. Indiquer ensuite à l'enfant que chaque case du jeu aura un abscisse et une ordonnée, et sera ensuite remplie d'une couleur pré définie.
 
 Lors de la présentation des fonctions précédentes, se focaliser uniquement sur les valeurs attribuées aux coordonnées cartésiennes.

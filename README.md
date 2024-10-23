@@ -1,10 +1,8 @@
-# Snake (Version 1.0)
-Snake est le premier mini-jeu que j'ai réalisé en utilisant la balise `<canvas></canvas>` du HTML 5. Il est codé en JavaScript.   
+# Jeu du serpent - Family Day
 
-Cette méthode de réalisation (avec le canvas) permet au jeu de fonctionner en ligne sans avoir à utiliser des technologies comme Adobe Flash Player ou Java. Seul JavaScript doit être activé sur le navigateur Internet.   
+Le jeu du serpent est un jeu vidéo où le joueur contrôle un serpent qui doit manger des objets pour grandir tout en évitant de heurter les murs et son propre corps.
 
-Il est possible d'y jouer ici : https://romain-semler.fr/jeux/snake/
+le jeu Snake est libre de droits et est souvent utilisé comme exemple pour l’apprentissage de la programmation.
 
------------------------
-Plus d'infos : https://romain-semler.fr/realisations/snake.php    
-More : https://romain-semler.fr/en/achievements/snake.php
+Ce code crée un jeu de serpent simple où le joueur peut utiliser les touches fléchées pour contrôler le serpent, manger de la nourriture pour gagner des points. 
+Dans cette version, il  n'y a pas de collisions avec les murs ou le propre corps du serpent.

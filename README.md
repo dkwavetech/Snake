@@ -31,6 +31,7 @@ Quelques minutes seront accordées à l'enfant pour profiter du jeu et s'amuser.
 ### Créer le serpent: ~ 2 minutes
 
 ``
+
 function creerSerpent() {
 
         var longueurDepart = 5; 
@@ -55,6 +56,7 @@ On marquera de manière aléatoire positionner la nourriture à n'importe quel e
 Indiquer à l'enfant qu'on peut changer la taille des cases.
 
 ``
+ 
  function creerNourriture() {
 
         nourriture = {
@@ -74,6 +76,7 @@ Tester le changement de couleur: rouge = ff334c | violet = f633ff
 
 ``
 $(document).keydown(function (e) {
+
 ``
 
 Expliquer à l'enfant qu'on écoute les évènements du clavier.
@@ -84,6 +87,7 @@ Pour info: https://e-3d-dc1.capgemini.com/confluence/display/P001594/IDFM+PRIM+H
 **H : 72**
 
 ``
+
 else if (key == "71" && direction != "gauche" && !touchePressee) {
             direction = "droite";
             touchePressee = true;

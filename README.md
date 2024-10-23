@@ -32,12 +32,12 @@ Quelques minutes seront accordées à l'enfant pour profiter du jeu et s'amuser.
 
         function creerSerpent() {
 
-        var longueurDepart = 5; 
-        serpent = [];
-        for (var i = longueurDepart - 1; i >= 0; i--) {
-            serpent.push({x: i, y: 0});
+                var longueurDepart = 5; 
+                serpent = [];
+                for (var i = longueurDepart - 1; i >= 0; i--) {
+                    serpent.push({x: i, y: 0});
+                }
         }
-    }
 
 On dessinera sur une feuille la longueur = 5 cm, et la largeur 1 cm.
 Puis on expliquera le code brièvement à l'enfant en lui indiquant où se trouve l'initialisation de la longueur.
@@ -56,11 +56,11 @@ Indiquer à l'enfant qu'on peut changer la taille des cases.
  
        function creerNourriture() {
 
-        nourriture = {
-            x: Math.round(Math.random() * (LARGEUR - 20) / TAILLECASE),
-            y: Math.round(Math.random() * (HAUTEUR - 20) / TAILLECASE)
-        };
-    }
+                nourriture = {
+                    x: Math.round(Math.random() * (LARGEUR - 20) / TAILLECASE),
+                    y: Math.round(Math.random() * (HAUTEUR - 20) / TAILLECASE)
+                };
+        }
 
 ### Dessiner ~ 2 minutes
 
@@ -70,10 +70,10 @@ Tester le changement de couleur: rouge = ff334c | violet = f633ff
 
 ### Contrôle du serpent ~ 5 minutes
 
-``
-$(document).keydown(function (e) {
 
-``
+        $(document).keydown(function (e) {
+
+
 
 Expliquer à l'enfant qu'on écoute les évènements du clavier.
 Chaque touche dispose d'un identifiant, lorsqu'on appuie sur une touche, on vérifie dans quelle direction le serpent doit être orienté.
@@ -82,13 +82,11 @@ Pour info: https://e-3d-dc1.capgemini.com/confluence/display/P001594/IDFM+PRIM+H
 **G : 71**
 **H : 72**
 
-``
 
-else if (key == "71" && direction != "gauche" && !touchePressee) {
+        else if (key == "71" && direction != "gauche" && !touchePressee) {
             direction = "droite";
             touchePressee = true;
         }
-``
 
 Tester avec l'enfant en changeant l'identifiant dans le code.
 L'enfant pourra ajouter un else pour l'action sur une touche supplémentaire. 

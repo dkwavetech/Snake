@@ -31,7 +31,6 @@ Quelques minutes seront accordées à l'enfant pour profiter du jeu et s'amuser.
 ### Créer le serpent: ~ 2 minutes
 
         function creerSerpent() {
-
                 var longueurDepart = 5; 
                 serpent = [];
                 for (var i = longueurDepart - 1; i >= 0; i--) {
@@ -55,7 +54,6 @@ Indiquer à l'enfant qu'on peut changer la taille des cases.
 
  
        function creerNourriture() {
-
                 nourriture = {
                     x: Math.round(Math.random() * (LARGEUR - 20) / TAILLECASE),
                     y: Math.round(Math.random() * (HAUTEUR - 20) / TAILLECASE)
